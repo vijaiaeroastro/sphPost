@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<VTKFile type="PPolyData" version="0.1" byte_order="LittleEndian" header_type="UInt32" compressor="vtkZLibDataCompressor">
+  <PPolyData GhostLevel="0">
+    <PPointData>
+      <PDataArray type="Float64" Name="velocity" NumberOfComponents="3"/>
+      <PDataArray type="Float64" Name="normal" NumberOfComponents="3"/>
+      <PDataArray type="Float64" Name="acceleration" NumberOfComponents="3"/>
+      <PDataArray type="UInt32" Name="particle_id"/>
+      <PDataArray type="UInt32" Name="object_id"/>
+      <PDataArray type="UInt32" Name="particle_type"/>
+      <PDataArray type="UInt32" Name="refinement_type"/>
+      <PDataArray type="Float64" Name="mass"/>
+      <PDataArray type="Float64" Name="pressure"/>
+      <PDataArray type="Float64" Name="density"/>
+    </PPointData>
+    <PPoints>
+      <PDataArray type="Float64" Name="Points" NumberOfComponents="3"/>
+    </PPoints>
+    <Piece Source="fluid_6872/fluid_6872_0.vtp"/>
+  </PPolyData>
+</VTKFile>
